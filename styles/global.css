@@ -61,12 +61,11 @@
     justify-content: center;
     align-items: center;
     width: 4rem;
-    height: rem;
+    height: 3rem;
     background: transparent;
     border-radius: 50%;
     font-size: 2rem;
-    /* color: var(--main-color); */
-    margin: 3rem 1.5rem 3rem 0;
+    padding: 0.7rem 1rem;
     
   }
   .btn{
