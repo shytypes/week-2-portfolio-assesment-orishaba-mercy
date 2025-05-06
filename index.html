@@ -5,14 +5,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    
     <!-- add fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
-      rel="stylesheet"
-    />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   +
+    <title>My Portfolio</title>
     <!-- local style -->
     <link rel="stylesheet" href="styles/global.css" />
   </head>
@@ -37,14 +35,18 @@
       <div class="Navs">
       <div class="Home">
       <h1> Get To Know Me </h1>
-      <p>Hi ,I m Mercy Orishaba! I am a Software Developer, and I'm very passionate and dedicated to my work. <br>I have acquired the skills and knowledge necessary for software development <br>through extensive learning. I enjoy every step of the design process, <br>from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the <br> finished product do everything for you that it was created to do.</p>
+      <p>Hi ,I m Mercy Orishaba! I am a Software Developer, and <br>I'm very passionate and dedicated to my work. I have acquired <br> the skills and knowledge necessary for software development <br>through extensive learning. I enjoy every step of the design process, <br>from discussion and collaboration to concept and execution,<br> but I find the most satisfaction in seeing the  finished product <br> do everything for you that it was created to do.</p>
       <h2>"In Case of any Project ,Dont Hesitate to contact me "</h2>
-      <button>Download CV</button>
-      <p>Email:orishabamercybanga@gmail.com</p>
-      <Phone>Phone:+256787930683</Phone>
-      <p>Linkedin:</p>
- 
+      
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/orishaba-mercy/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://twitter.com/Mercyorish"><i class='bx bxl-twitter'></i></a>
+        <a href="https://github.com/orishaba-mercy"><i class='bx bxl-github'></i></a>
+        <a href="https://www.instagram.com/orishaba.mercy.355/"><i class='bx bxl-instagram-alt'></i></a>
+        <a href="#" class="btn">Download CV</a>
+      </div>
     </div>
+    
     
       <img src="assets/images/Mercy.jpeg" alt="">
     
@@ -88,6 +90,22 @@
         
     </div>
   </div>
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+    <form action="#">
+        <div class="input-box">
+        <input type="text" placeholder="Full Name">
+        <input type="email" placeholder="Email Addess">
+    </div>
+    <div class="input-box">
+        <input type="number" placeholder="Mobile Number">
+        <input type="text" placeholder="Email Subject">
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message" class="btn">
+    </form>
+
+</section>
     </main>
   </body>
 </html>

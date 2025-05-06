@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .main{
+    background-color: rgb(225, 220, 220);
+  }
+  .Nav ul{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    list-style: none;
+    font-size: 30px;
+    justify-content: space-between;
+    background-color: rgb(92, 31, 31);
+    
+    
+  }
+  .Nav a{
+    text-decoration: none;
+    color: aliceblue;
+   
+  }
+  .Navs {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 80px;
+    color: rgb(12, 12, 13);
+    border-radius: 30%;
+
+   
+  }
+  .Home h1{
+    font-size: 50px;
+    font-weight: 700;
+    padding-right: 40%;
+  }
+  .Home h2{
+    font-size: 25px;
+    font-weight: 700px;
+    padding-top: 10px;
+   
+  }
+  .Home p{
+    font-size: 25px;
+    text-align:justify;
+   
+  }
+  .Navs img{
+    height: 60vh;
+    width: 500px;
+    border-radius: 30%;
+    
+  }
+  .Home{
+    padding-top: 20px;
+  }
+  .icons{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: rem;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 2rem;
+    /* color: var(--main-color); */
+    margin: 3rem 1.5rem 3rem 0;
+    
+  }
+  .btn{
+    display: inline-block;
+    padding: 0.7rem 1rem;
+    background: #df7575;
+    height: 5vh;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    letter-spacing: 0.5rem;
+    font-weight: 600;
+    font-size: 20px;
+    transition: 5s ease;
+}
+.btn:hover{
+    box-shadow: none;
+
+}
+   
+  .exp{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    flex-wrap: wrap;
+
+   
+  }
+  .exp1{
+    padding-left: 200px;
+  }
+  .exp2{
+    padding-right: 200px;
+    font-size: 20px;
+  }
+  .hobbies{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .hob1{
+    padding-left: 300px;
+    
+   
+  }
+  .hob2{
+    padding-right: 400px;
+    font-size: 20px;
+  }
+  .contact h2 {
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 50px;
+
+}
+.contact form {
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.contact form .input-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact form .input-box input,
+.contact form textarea{
+    width: 80%;
+    padding: 1.1rem;
+    font-size: 1.2rem;
+    color: white;
+    background:rgb(20, 8, 8);
+    border-radius: .6rem;
+    margin: .3rem 0;
+}
+.contact form .input-box input{
+   width: 20%; 
+}
+.contact form textarea{
+    resize: none;
+
+}
+.contact form .btn{
+    margin-top: 2rem;
+    cursor: pointer;
+
+}
+
+   
+  /*title text style*/
+  /* the font-family 'JetBrains Mono', has been linked
+  * and is available for your use
+  * */
+   
