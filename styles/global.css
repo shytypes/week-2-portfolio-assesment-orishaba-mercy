@@ -25,9 +25,10 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 80px;
+    padding: 200px;
     color: rgb(12, 12, 13);
     border-radius: 30%;
+    padding-top: 100px;
 
    
   }
@@ -88,13 +89,20 @@
     box-shadow: none;
 
 }
-   
+   .ex{
+    padding-top: 40px;
+    background-color: #deeedc;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+   }
   .exp{
     display: flex;
     justify-content: space-between;
     border-radius: 20px;
     flex-wrap: wrap;
-
+    
    
   }
   .exp1{
