@@ -5,23 +5,26 @@ document.addEventListener("DOMContentLoaded", () => {
   const phone = document.querySelector('input[placeholder="Mobile Number"]');
   const subject = document.querySelector('input[placeholder="Email Subject"]');
   const message = document.querySelector('textarea');
+  const submittedData = document.getElementById("submitted-data");
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
     const userData = {
-      name: name.value,
-      email: email.value,
-      phone: phone.value,
-      subject: subject.value,
-      message: message.value
+      name: name.value.trim(),
+      email: email.value.trim(),
+      phone: phone.value.trim(),
+      subject: subject.value.trim(),
+      message: message.value.trim()
     };
 
-    console.log("Name:", userData.name);
-    console.log("Email:", userData.email);
-    console.log("Phone:", userData.phone);
-    console.log("Subject:", userData.subject);
-    console.log("Message:", userData.message);
+    submittedData.innerHTML = `
+      <h3>Thank you, ${userData.name}!</h3>
+      <p><strong>Email:</strong> ${userData.email}</p>
+      <p><strong>Phone:</strong> ${userData.phone}</p>
+      <p><strong>Subject:</strong> ${userData.subject}</p>
+      <p><strong>Message:</strong> ${userData.message}</p>
+    `;
 
     alert("Thank you for contacting me, " + userData.name + "!");
 
